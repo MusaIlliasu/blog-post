@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+
+                <div class="nav_left">
+                    <div class="logo">LG</div>
+                </div>
+
+                <div class="nav_right">
+                    <a href="#" class="mr">Posts</a>
+                    <a href="#" id="addLink">Add</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Header Section -->
+        <div class="header">
+            🚀 Blog Post Application 🚀
+        </div>
+
+        <!-- Post Section -->
+        <div class="container">
+            <div class="posts"></div>
+        </div>
+
+        <!-- Add Section -->
+        <div class="add_section">
+            <div class="container">
+                <form autocomplete="off">
+                    <h2 class="add_header">New Post</h2>
+                    
+                    <div class="add_body">
+                        <input type="text" name="postAuthor" id="postAuthor" placeholder="Author" />
+                        <input type="text" name="postTitle" id="postTitle" placeholder="Title" />
+                        <textarea name="postContent" id="postContent" placeholder="Content"></textarea>
+                        <input type="submit" value="Add Post" />
+                    </div>
+
+                    <div class="closeBtn">X</div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Read More Section -->
+        <div class="read_more_section">
+            <div class="container">
+                <div class="read_more"></div>
+            </div>
+        </div>
+
+        <!-- Toast Container -->
+        <div class="toast">Toast success</div>
+    </main>
+    
+</body>
+</html>
